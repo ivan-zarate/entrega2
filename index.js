@@ -1,7 +1,7 @@
 
 const Contenedor = require('./class');
 
-const archivo = new Contenedor('products.txt');
+const file = new Contenedor('products.txt');
 
 let product1 = {
     title: "Apple",
@@ -19,17 +19,17 @@ let id=2;
 
 const proccesFile = async () => {
 
-    await archivo.save(product1, product2);
+    await file.save(product1, product2);
 
-    // const idElegido= await archivo.getById(id);
+    // const idElegido= await file.getById(id);
     // console.log(idElegido);
 
-    // let products= await archivo.getAll();
+    // let products= await file.getAll();
     // console.log(products);
 
-    // await archivo.deleteById(id);
+    // await file.deleteById(id);
 
-    // await archivo.deleteAll();
+    // await file.deleteAll();
 
 }
 
