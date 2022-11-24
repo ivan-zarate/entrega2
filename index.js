@@ -1,7 +1,7 @@
 
-const Contenedor = require('./class');
+const Container = require('./class');
 
-const file = new Contenedor('products.txt');
+const file = new Container('products.txt');
 
 let product1 = {
     title: "Apple",
